@@ -20,7 +20,7 @@ services:
           PMA_HOST: maria_db
           PMA_PORT: 3306
         ports:
-          - '8000:80' # 
+          - '8000:80' #
 
     wordpress:
         image: wordpress:latest # 
