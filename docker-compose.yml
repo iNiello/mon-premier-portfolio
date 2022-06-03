@@ -27,7 +27,7 @@ services:
         depends_on:
             - maria_db # 
         ports:
-            - 80858:80 # 
+            - 8085:80 # 
         environment:
             VIRTUAL_HOST: projetwp.real
             WORDPRESS_DB_HOST: maria_db:3306
